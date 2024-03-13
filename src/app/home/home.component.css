@@ -1,0 +1,98 @@
+.p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.eye{
+    background-color: rgb(240, 115, 70);
+    width: 90px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+.heart{
+    background-color: lightgreen;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+.mission{
+    background-color: rgb(83, 83, 131);
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+h5{
+    color:blue
+}
+.header{
+    background-color: rgb(49, 49, 93);
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+}
+b{
+    color:rgb(97, 163, 97);
+}
+
+.d-block{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+}
+
+.carousel-indicators1{
+position: relative;
+}
+
+.achievements{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+
+}
+.buttons{
+display: none;
+}
+.prev,.next{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(222, 177, 123);
+}
+.card{
+    margin: 50px;    
+
+}
+
+.visible-buttons{
+    opacity:0;
+    transition:all 0.7s ease 0s;
+}
+
+/* hover to display text on image */
+
+/* (A) RESPONSIVE IMAGE */
+.himg { width: 100%; }
+.hwrap { max-width: 500px; } /* optional */
+ 
+/* (B) POSITION CAPTION */
+.hwrap { position: relative; }
+.hcap {
+  /* (B1) PLACE AT BOTTOM */
+position:absolute; bottom: 0; left: 0;
+ 
+  /* (B2) DIMENSIONS + COLORS */
+  width: 100%; padding: 10px;
+  color: #2c2a2a; background: rgba(199, 192, 192, 0.5);
+}
+
+/* (C) ONLY SHOW CAPTION ON HOVER */
+.hcap {
+  visibility: none; opacity: 0;
+  transition: opacity 0.3s;
+}
+.hwrap:hover .hcap{
+  visibility: visible; opacity: 1;}
